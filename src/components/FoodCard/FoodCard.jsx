@@ -1,5 +1,5 @@
 import './FoodCard.css';
-import food from '../../assets/food.jpg';
+import food from '/food.jpg';
 
 function FoodCard({ item, addToCart }) {
   return (

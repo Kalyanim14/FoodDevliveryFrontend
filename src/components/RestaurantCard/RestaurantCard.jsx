@@ -1,12 +1,12 @@
 import "./RestaurantCard.css";
 import { Link } from "react-router-dom";
-
+import res from "../../assets/restaurant.jpg";
 function RestaurantCard({ restaurant }) {
   return (
     <div className="restaurant-card">
       <img
-        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
-        alt="Restaurant"
+        src={res}
+        alt="restaurant"
       />
 
       <div className="restaurant-content">
